@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from views import index
+from book.views import index
 urlpatterns = [
-    path('/index', index),
+    path('index/', index),
 ]
